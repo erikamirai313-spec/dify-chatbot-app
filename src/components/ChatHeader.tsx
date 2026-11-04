@@ -6,7 +6,7 @@ interface ChatHeaderProps {
 
 function ChatHeader({ onReset }: ChatHeaderProps) {
   return (
-    <header className="sticky top-0 z-10 bg-[#f5ebe0]/95 backdrop-blur-sm border-b border-[#e0d0c0] px-4 py-3 pb-[max(0.75rem,env(safe-area-inset-top))]">
+    <header className="flex-shrink-0 bg-[#f5ebe0]/95 backdrop-blur-sm border-b border-[#e0d0c0] px-4 py-3 pb-[max(0.75rem,env(safe-area-inset-top))]">
       <div className="flex items-center justify-between max-w-2xl mx-auto">
         <div className="flex items-center gap-2.5">
           <div className="w-10 h-10 rounded-full bg-[#d9b3a3] flex items-center justify-center">
